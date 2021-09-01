@@ -1,0 +1,1 @@
+Basic CRUD app built for a grocery store app. You can view, edit and add new products.
