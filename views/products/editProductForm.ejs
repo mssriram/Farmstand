@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Title</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/images/tractor-solid.png">
+<link rel="stylesheet" href="/css/newProduct.css">
+</head>
+
+<body>
+    <header>
+        <h1>FarmStand</h1>
+        <div class="links-container">
+            <a href="/products/new" id="header-new">Add new product</a>
+            <a href="/products" id="header-products">All products</a>
+        </div>
+    </header>
+    
+    <h2>Edit Product</h2>
+    <form action="/products/<%=product._id%>?_method=PUT" method="post" >
+        <label for="name">Enter Product Name</label>
+        <input type="text" name="name" value="<%=product.name%>"><br><br>
+        <label for="price">Enter Price</label>
+        <input type="number" name="price" value="<%=product.price%>"><br><br>
+        <label for="image">Enter Image Url</label>
+        <input type="text" name="image" required value="<%=product.image%>"><br><br>
+        <label for="category">Enter Category</label>
+        <select id="category" name="category">
+            <% for( let category of categories) { %>
+                <option value="<%= category%>"><%= category%></option>    
+            <% } %>
+        </select><br><br>
+        <button>Submit</button>
+        
+    </form><br>
+
+    <script>
+        const select = document.querySelector('#category');
+        category.value= "<%=product.category%>";
+    </script>
+</body>
+
+</html>

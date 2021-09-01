@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lora&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #d3e0f1;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 2rem 0 2rem;
+    font-size: 1.3rem;
+}
+
+#header-products{
+    margin: 0 1.5rem 0 0
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 3;
+    padding: 2rem 1rem;
+    margin: 0 0 2rem 0;
+    background-color: #78abee;
+}   
+
+h1{
+    display: block;
+    width: 50%;
+    font-family: 'Carter One', cursive !important;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label{
+    margin: 0 0 5px 0;
+}
+
+input[type="text"], input[type="number"], select{
+    width: 100%;
+    padding: 6px 5px;
+}
+
+button{
+    width: 20%;
+    padding: 8px 0;
+    margin: 0 auto;
+    border-style: none;
+    background-color: rgb(114, 240, 114);
+    cursor: pointer;
+}

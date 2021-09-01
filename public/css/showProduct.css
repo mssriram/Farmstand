@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lora&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #d3e0f1;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 2rem 0 2rem;
+    font-size: 1.3rem;
+}
+
+#header-products{
+    margin: 0 1.5rem 0 0
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 3;
+    padding: 2rem 1rem;
+    margin: 0 0 2rem 0;
+    background-color: #78abee;
+}   
+
+h1{
+    display: block;
+    width: 50%;
+    font-family: 'Carter One', cursive;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #94bdf3;
+    border-radius: 20px;
+}
+
+h2{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #0067ee;
+}
+
+#category{
+    color: black;
+}
+
+#category:hover{
+    color: rgb(80, 79, 79)
+}
+
+section{
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid #0067ee;
+    border-right: 2px solid #0067ee;
+    border-left: 2px solid #0067ee;
+}
+
+.action-btn{
+    display: flex;
+    width: 300px;
+    margin: 0 auto 20px auto;
+    padding: 20px 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 2px solid #0067ee;
+    border-left: 2px solid #0067ee;
+    border-top: 1px solid #0067ee;
+    border-bottom: 2px solid #0067ee;
+
+}
+
+.action-btn *{
+    width: 50%;
+}
+
+#edit{
+    margin: 0 13px 10px 13px;
+    text-decoration: none;
+    color: inherit;
+    padding: 3px 0; 
+    background-color: #ffc107;
+    border-radius: 5px;
+}
+
+form{
+    margin: 0 13px 10px 13px;
+}
+
+#delete{
+    display: block;
+    width: 100%;
+    border-style: none;
+    background-color: inherit;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 3px 0; 
+    background-color: #e74b5a;
+    border-radius: 5px;
+}
+
+
+
